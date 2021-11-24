@@ -14,7 +14,7 @@ This project includes two programs:
 
 * "creating_year_folder.py" asks you to type a "year" (f.e.: 2021) when you run the program. Then, it automatically creates folders and subfolders with all months (f.e: "01. January" format) and days (f.e: "02-04-2021" format) for each month. As this project was designed to work in Windows, the year folder is created in the "Desktop" folder, as it's usually easy to find any file there.
 
-* "reading_filespy.py" requests two paths, the first path is related to the target folder where you want to organise your pictures. The second path is the source folder where you want to take your pictures of. Reached this point, it's important to say that the program is designed to handle the format "20200101_221106" which stands for "yyyymmdd_hhmmss". Said this, the program reads every file name, then if it finds a right place, it cuts the picture, then it pastes it in the right folder.
+* "reading_filespy.py" requests two paths, the first path is related to the target folder where you want to organise your pictures (f.e.: "C:\Users\{User}\Desktop\2021"). The second path is the source folder where you want to take your pictures of (f.e.: "C:\Users\{User}\Desktop\CopiedElements"). Reached this point, it's important to say that the program is designed to handle the format "20200101_221106" which stands for "yyyymmdd_hhmmss". Said this, the program reads every file name, then if it finds a right place, it cuts the picture, then it pastes it in the right folder.
 
 ## Technologies:
 
