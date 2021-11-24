@@ -2,8 +2,8 @@ import re
 import os
 from shutil import move
 
-myTargetFolder = input('Type the path target with the YEAR of the pictures you want to copy/paste. Example -> C:\\Users\\User\\Desktop\\1569\nType your path: ')
-mySourceFolder = input('Type the path source with the files of the pictures you want to copy/paste. Example -> C:\\Users\\Álvaro\\Desktop\\CopiedElements\nType your path: ')
+myTargetFolder = input('Type the path target with the YEAR of the pictures you want to cut/paste. Example -> C:\\Users\\User\\Desktop\\1569\nType your path: ')
+mySourceFolder = input('Type the path source with the files of the pictures you want to cut/paste. Example -> C:\\Users\\Álvaro\\Desktop\\CopiedElements\nType your path: ')
 monthList = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 pattern = "(\d{4})(\d{2})(\d{2})"
 

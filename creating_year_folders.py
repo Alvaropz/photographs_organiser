@@ -7,7 +7,7 @@ dirName = '{}/Users/{}/Desktop/{}'.format(os.getenv("SystemDrive"), os.getenv('u
 try:
     # Creates target Directory
     os.mkdir(dirName)
-    print(yearStr, "directory created")
+    print(yearStr, "folder created")
     os.chdir(dirName)
 
     monthList = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre",
